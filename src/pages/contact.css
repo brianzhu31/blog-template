@@ -1,0 +1,59 @@
+.contact {
+  width: 100%;
+  background-color: var(--main-navy-blue);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.school-map {
+  max-width: 800px;
+  width: 100%;
+  aspect-ratio: 16/11;
+}
+
+.contact-info-container {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-info-container p {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 900px) {
+
+  .contact-info-container p {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info-container {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+}

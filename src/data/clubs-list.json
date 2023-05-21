@@ -1,0 +1,147 @@
+[
+  {
+    "title": "Milliken Business Organization (MBO)",
+    "id": "mbo",
+    "gc_code": "btfvct7",
+    "ig": "mmhs.mbo",
+    "dc": "https://discord.gg/DrDCnfpZBD",
+    "meeting_time": "Variable",
+    "short_description": "Student-led business club",
+    "description": "Milliken Business Organization is a student-led club at Milliken Mills High School. Founded in 2018, we are dedicated to bringing together like-minded business enthusiasts under the spirit of competition.",
+    "main_image": "/images/mbo_logo.png",
+    "gallery": [
+      "/images/mbo1.png",
+      "/images/mbo2.png",
+      "/images/mbo3.png",
+      "/images/mbo4.png",
+      "/images/mbo5.png"
+    ]
+  },
+
+
+ {
+    "title": "Announcements Team",
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Band",
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "Tuesdays - Junior; Wednesday- Senior",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Behind the Scenes",
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Best Buddies",
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Chess",
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "Tuesdays at Lunch",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Concert Choir",
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "Thursdays 3:30 - 4:30pm",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Dance Club",    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Debate Club",
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "Fridays 3:45pm",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  },
+
+ {
+    "title": "Drama Club", 
+    "id": "",
+    "gc_code": "",
+    "ig": "",
+    "dc": "",
+    "meeting_time": "Wednesdays Lunch & Show/Events Days",
+    "short_description": "",
+    "description": "",
+    "main_image": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+    "gallery": [
+]
+  }
+
+]

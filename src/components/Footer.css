@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  background-color: transparent;
+  max-width: 1100px;
+  margin: 0 auto;  
+  position: relative;
+  bottom: 0;
+}
+.footer-container {
+  border-top: solid;
+  border-width: 1px;
+  border-color: #2a2c34;
+  margin: 0 auto; 
+  max-width: 1100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: 2vh;
+  background-color: transparent;
+  text-align: center;
+}

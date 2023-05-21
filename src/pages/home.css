@@ -1,0 +1,269 @@
+.home {
+  width: 100%;
+  background-color: var(--main-navy-blue);
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 60vh;
+  line-height: 120px;
+}
+
+.school-name-text-container {
+  text-align: center;
+  animation: 1.3s ease-out 0s 1 slideIn;
+}
+
+@media screen and (max-height: 760px) {
+  .heading-container {
+    height: 50vh;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heading-container h1 {
+  font-size: 9rem;
+  color: var(--white);
+}
+
+.heading-container h2 {
+  font-size: 6.5rem;
+  color: var(--light-gray);
+}
+
+@media screen and (max-width: 1000px) {
+
+  .heading-container h1{
+    font-size: 7rem;
+  }
+
+  .heading-container h2{
+    font-size: 5.4rem;
+  }
+
+}
+
+@media screen and (max-width: 710px) {
+
+  .heading-container h1{
+    font-size: 5.3rem;
+  }
+
+  .heading-container h2{
+    font-size: 4.2rem;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .heading-container h1{
+    font-size: 4.4rem;
+  }
+
+  .heading-container h2{
+    font-size: 3.7rem;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+
+  .heading-container h1{
+    font-size: 3.4rem;
+  }
+
+  .heading-container h2{
+    font-size: 3rem;
+  }
+
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.school-intro-container {
+  padding: 120px 30px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.arrow {
+  height: 110px;
+}
+
+.school-img-container{
+  width: 50%;
+  overflow: hidden;
+}
+
+#school-img {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+  scale: 1.4
+  
+}
+
+.intro-description-container {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  width: 50%;
+}
+
+.intro-description-container p {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1280px) {
+
+  .intro-description-container p {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  .intro-description-container p {
+    font-size: 1.4rem;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .school-intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .school-img-container {
+    width: 100%;
+  }
+
+  .intro-description-container {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .intro-description-container p {
+    font-size: 1.6rem;
+  }
+  
+}
+
+@media screen and (max-width: 700px) {
+
+  .intro-description-container p {
+    font-size: 1.4rem;
+  }
+
+}
+
+.school-programs-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 50px;
+  padding: 0px 20px;
+}
+
+.school-programs-container h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.programs-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 30px;
+  
+}
+
+.home-ib-img {
+  height: 240px;
+  width: 80%;
+  object-fit: contain;
+}
+
+.home-shsm-img {
+  height: 240px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.program-container h2 {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+  .home-ib-img {
+    height: 120px;
+  }
+
+  .home-shsm-img {
+    height: 120px;
+  }
+
+}
+
+.school-activities-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 150px;
+}
+
+.activities-cards-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
