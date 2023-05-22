@@ -47,13 +47,13 @@ export default function Home() {
           <div className='programs-row' data-aos='fade-right' data-aos-once="true" data-aos-delay="500" data-aos-duration="2000">
             <div className='program-container'>
               <img className='home-ib-img' src='/images/people-icon.png'></img>
-              <a className='learn-more-btn' href='./ib-program'>
+              <a className='learn-more-btn' href='/'>
                 Learn more
               </a>
             </div>
             <div className='program-container' data-aos='fade-right' data-aos-once="true" data-aos-delay="1000" data-aos-duration="2000">
               <img className='home-shsm-img' src='/images/growth-icon.png'></img>
-              <a className='learn-more-btn' href='./shsm'>
+              <a className='learn-more-btn' href='/'>
                 Learn more
               </a>
             </div>
