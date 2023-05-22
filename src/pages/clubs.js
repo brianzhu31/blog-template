@@ -8,7 +8,7 @@ import clubsList from "../data/clubs-list.json";
 export default function Clubs() {
   return (
     <div className="clubs">
-      <Header title="Clubs" />
+      <Header title="Catalogue" />
       <div className="catalogue-content">
         <div className="searchbar-container">
           <div class="searchbar">
@@ -30,12 +30,6 @@ export default function Clubs() {
                   image={club.main_image}
                   title={club.title}
                   short_description={club.short_description}
-                  gc_code={club.gc_code}
-                  ig={club.ig}
-                  dc={club.dc}
-                  meeting-time={club.meeting_time}
-                  description={club.description}
-                  gallery={club.gallery}
                 />
               </a>
             );

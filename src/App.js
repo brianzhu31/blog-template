@@ -3,18 +3,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
+import Card from './components/Card';
 import Home from './pages/home';
 import Menu from './components/Menu';
 import Clubs from './pages/clubs';
-import Athletics from './pages/athletics';
 import Events from './pages/events';
-import OurSchool from './pages/our-school';
-import IBProgram from './pages/ib-program';
-import Shsm from './pages/shsm';
-import OurTeam from './pages/our-team';
-import Contact from './pages/contact';
-import Club from './pages/club';
-import Athletic from './pages/athletic';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -34,15 +27,7 @@ function App() {
             {/* Define new page routes here */}
             <Route path='/' exact component={Home} />
             <Route path='/clubs' exact component={Clubs} />
-            <Route path='/clubs/:clubId' exact component={Club}/>
-            <Route path='/athletics' exact component={Athletics} />
-            <Route path='/athletics/:athleticId' exact component={Athletic}/>
             <Route path='/events' exact component={Events} />
-            <Route path='/our-school' exact component={OurSchool} />
-            <Route path='/ib-program' exact component={IBProgram} />
-            <Route path='/shsm' exact component={Shsm} />
-            <Route path='/contact' exact component={Contact} />
-            <Route path='/our-team' exact component={OurTeam} />
           </Switch>
         </div>
         <Menu menuOn={menuOn} toggleMenu={menuOn => setMenuOn(menuOn)} toggleMenuIcon={menuIcon => setMenuIcon(menuIcon)}/>

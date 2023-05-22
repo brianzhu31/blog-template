@@ -26,8 +26,8 @@ export default function Home() {
       <div className='home'>
         <div className='heading-container'>
           <div className='school-name-text-container'>
-            <h1>Milliken Mills</h1>
-            <h2>High School</h2>
+            <h1>Title Here</h1>
+            <h2>Subtitle Here</h2>
           </div>
         </div>
         <div className='arrow-container' data-aos='fade-down' data-aos-once="true" data-aos-delay="1000" data-aos-duration="2000">
@@ -36,23 +36,23 @@ export default function Home() {
         </div>
         <div className='school-intro-container' data-aos='fade-right' data-aos-once="true" data-aos-delay="500" data-aos-duration="2000">
           <div className='school-img-container'>
-            <img id='school-img' src='images/front-school.jpg'></img>
+            <img id='school-img' src='https://media.istockphoto.com/id/932755326/photo/modern-office-buildings-made-of-glass-and-concret.jpg?s=612x612&w=0&k=20&c=GfBzrP3HF5XOwqh6sBrOo-_2Jv6pB1a77t0R3-X6L1o='></img>
           </div>
           <div className='intro-description-container'>
-            <p>Milliken Mills High School teaches students in grades 9-12 and runs on a semester timetable September through June. Students often like to gather in the atrium of our school for events that are often held there. It is located next to Milliken Mills Community Centre, featuring a pool and a library, which students also often use in their daily lives.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
         </div>
         <div className='school-programs-container'>
-          <h1 data-aos='fade-down' data-aos-once="true" data-aos-delay="500" data-aos-duration="2000">Our specialty programs</h1>
+          <h1 data-aos='fade-down' data-aos-once="true" data-aos-delay="500" data-aos-duration="2000">Title Here</h1>
           <div className='programs-row' data-aos='fade-right' data-aos-once="true" data-aos-delay="500" data-aos-duration="2000">
             <div className='program-container'>
-              <img className='home-ib-img' src='/images/ib-logo.png'></img>
+              <img className='home-ib-img' src='/images/people-icon.png'></img>
               <a className='learn-more-btn' href='./ib-program'>
                 Learn more
               </a>
             </div>
             <div className='program-container' data-aos='fade-right' data-aos-once="true" data-aos-delay="1000" data-aos-duration="2000">
-              <img className='home-shsm-img' src='/images/shsm.jpeg'></img>
+              <img className='home-shsm-img' src='/images/growth-icon.png'></img>
               <a className='learn-more-btn' href='./shsm'>
                 Learn more
               </a>
@@ -60,21 +60,21 @@ export default function Home() {
           </div>
         </div>
         <div className='school-activities-container'>
-          <h1 data-aos='fade-down' data-aos-once="true" data-aos-delay="500" data-aos-duration="2000">Browse our activities</h1>
+          <h1 data-aos='fade-down' data-aos-once="true" data-aos-delay="500" data-aos-duration="2000">Title Here</h1>
           <div className='activities-cards-container'>
             <div className='activities-card-wrapper' data-aos='fade-right' data-aos-once="true" data-aos-delay="800" data-aos-duration="2000">
-              <a href='/clubs'>
-                <Card2 title='Clubs' image='https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'/>
+              <a href='/'>
+                <Card2 title='Title Here' image='https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg'/>
               </a>
             </div>
             <div className='activities-card-wrapper' data-aos='fade-right' data-aos-once="true" data-aos-delay="1100" data-aos-duration="2000">
-              <a href='/athletics'>
-                <Card2 title='Athletics' image='/images/volleyball.JPG'/>
+              <a href='/'>
+                <Card2 title='Title Here' image='https://media.istockphoto.com/id/1345912457/photo/financial-stock-market-graph-selective-focus.jpg?s=612x612&w=0&k=20&c=I-XKq4_2c3rOJPezkG5J6DNbl65OVgmGbX4yrp5T7qQ='/>
               </a>
             </div>
             <div className='activities-card-wrapper' data-aos='fade-right' data-aos-once="true" data-aos-delay="1400" data-aos-duration="2000">
-              <a href='/events'>
-                <Card2 title='Events' image='/images/semi.jpg'/>
+              <a href='/'>
+                <Card2 title='Title Here' image='https://us.123rf.com/450wm/peopleimages12/peopleimages122302/peopleimages12230222251/198934672-call-center-business-and-black-man-with-computer-telemarketing-or-talking-to-help-with-tech.jpg?ver=6'/>
               </a>
             </div>
           </div>

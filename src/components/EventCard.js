@@ -6,7 +6,7 @@ function EventCard() {
     <div className="event-card">
       <div className="top">
           <span className="event-name">
-            Show Guidance
+            Title Here
           </span>
           <span className="event-date">
               04/10/23
